@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co.com/rKYQMmc5/images.jpg",
+      "profile_img": "https://i.ibb.co.com/twnByPmR/shakib.jpg",
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "speciality": "All-rounder",
+      "batting_style": "Left-handed-bat",
+      "bowling_style": "Left-arm orthodox spin",
+      "price_usd": 13000,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co.com/bgcJrW4M/1736567827059.jpg",
+      "profile_img": "https://i.ibb.co.com/ymVDMHSW/images-1.jpg",
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "speciality": "Batsman",
+      "batting_style": "Left-handed-bat",
+      "bowling_style": "N/A",
+      "price_usd": 10000,
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co.com/LDg73pwP/2021-07-23-T064306-Z-1-LYNXMPEH6-M09-C-RTROPTP-3-CRICKET-WORLDCUP-WIN-BGD-1630903251878-166227441707.jpg",
+      "profile_img": "https://i.ibb.co.com/0VBQncq8/images.jpg",
+      "name": "Mushfiqur Rahim",
+      "country": "Bangladesh",
+      "speciality": "Wk Batsman",
+      "batting_style": "Right-handed-bat",
+      "bowling_style": "N/A",
+      "price_usd": 11000,
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co.com/SwjfGDBF/UsgAIOc.jpg",
+      "profile_img": "https://i.ibb.co.com/xqTdkvBL/Fxd-Kc-J7-WAAEkk6-W.jpg",
+      "name": "Joe Root",
+      "country": "England",
+      "speciality": "Batsman",
+      "batting_style": "Right-handed-bat",
+      "bowling_style": "Right-arm off-break",
+      "price_usd": 12000,
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co.com/gNZpmbL/Untitled-design-12.jpg",
+      "profile_img": "https://i.ibb.co.com/mr3PZp0M/60783660873ea9455711a937-Th-Ben-Stokes-Celebrates.jpg",
+      "name": "Ben Stokes",
+      "country": "England",
+      "speciality": "All-rounder",
+      "batting_style": "Left-handed-bat",
+      "bowling_style": "Right-arm fast-medium",
+      "price_usd": 20000,
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co.com/fY3JrZ1K/byimcrs4ciw0syw0uphy.jpg",
+      "profile_img": "https://i.ibb.co.com/MKFnhfY/images.jpg",
+      "name": "Jos Buttler",
+      "country": "England",
+      "speciality": "Wk Batsman",
+      "batting_style": "Right-handed-bat",
+      "bowling_style": "N/A",
+      "price_usd": 12500,
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co.com/FLh750GN/steve-smith-pictures-plqsoal1luugiyt3.jpg",
+      "profile_img": "https://i.ibb.co.com/6cqk1mnZ/images.jpg",
+      "name": "Steve Smith",
+      "country": "Australia",
+      "speciality": "Batsman",
+      "batting_style": "Right-handed-bat",
+      "bowling_style": "Right-arm leg spin",
+      "price_usd": 16000,
+      "rating": 4.9
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co.com/VcZJXw9x/e5124b85a908cbb7a4b4b395eb493d3c.jpg",
+      "profile_img": "https://i.ibb.co.com/xqVbNQW0/65c9957f3f5a8d873ae248d2-65c42ef88aec62f884735ea0-Pat-Cummins.jpg",
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "speciality": "Bowler",
+      "batting_style": "Right-handed-bat",
+      "bowling_style": "Right-arm fast",
+      "price_usd": 18000,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co.com/sdfp6wj9/david-warner-07-03-2022.jpg",
+      "profile_img": "https://i.ibb.co.com/NnV5CMFK/images.jpg",
+      "name": "David Warner",
+      "country": "Australia",
+      "speciality": "Batsman",
+      "batting_style": "Left-handed-bat",
+      "bowling_style": "Right-arm leg-break",
+      "price_usd": 15000,
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "img": "https://i.ibb.co.com/wFBNwqdF/Jofra-Archer-060424-01.jpg",
+      "profile_img": "https://i.ibb.co.com/vxsgd2YJ/images-1.jpg",
+      "name": "Jofra Archer",
+      "country": "England",
+      "speciality": "Bowler",
+      "batting_style": "Right-handed-bat",
+      "bowling_style": "Right-arm fast",
+      "price_usd": 14000,
+      "rating": 4.6
+    },
+    {
+      "id": 11,
+      "img": "https://i.ibb.co.com/MksydTD1/mustafizur-rahman-15-03-2022.jpg",
+      "profile_img": "https://i.ibb.co.com/w3qjpsk/images.jpg",
+      "name": "Mustafizur Rahman",
+      "country": "Bangladesh",
+      "speciality": "Bowler",
+      "batting_style": "Left-handed-bat",
+      "bowling_style": "Left-arm fast-medium",
+      "price_usd": 9000,
+      "rating": 4.3
+    },
+    {
+      "id": 12,
+      "img": "https://i.ibb.co.com/0jp1tTV5/1756691-37131987-640-480.jpg",
+      "profile_img": "https://i.ibb.co.com/0jp1tTV5/1756691-37131987-640-480.jpg",
+      "name": "James Anderson",
+      "country": "England",
+      "speciality": "Bowler",
+      "batting_style": "Right-handed-bat",
+      "bowling_style": "Right-arm fast",
+      "price_usd": 11000,
+      "rating": 4.2
+    }
+  ]
+  

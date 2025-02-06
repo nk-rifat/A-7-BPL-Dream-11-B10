@@ -1,0 +1,26 @@
+.container-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.available {
+    color: #131313;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.btnAS {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border-top: 1px solid rgba(19, 19, 19, 0.10);
+    border-right: 1px solid rgba(19, 19, 19, 0.10);
+    border-bottom: 1px solid rgba(19, 19, 19, 0.10);
+    border-left: 1px solid rgba(19, 19, 19, 0.10);
+    background: #FFF;
+
+}
