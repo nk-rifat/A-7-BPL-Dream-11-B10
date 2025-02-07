@@ -6,7 +6,6 @@ const Cricketer = ({ cricketer, handleChosePlayer }) => {
     const { img, profile_img, name, country, speciality, batting_style, bowling_style, price_usd, rating } = cricketer;
     return (
         <div>
-
             <div className='container'>
                 <img className='h-[240px] w-full rounded-2xl' src={img} alt="" />
 

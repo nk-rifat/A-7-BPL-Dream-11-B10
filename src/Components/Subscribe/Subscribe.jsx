@@ -1,7 +1,7 @@
 import './Subscribe.css';
 const Subscribe = () => {
     return (
-        <div className='absolute right-[315px] top-[3360px]'>
+        <div className='relative left-[290px] bottom-[-160px]'>
             <div className='border'>
                 <div className="background-img bg-white py-[88px] space-y-6">
                     <h1 className='title'>Subscribe to our Newsletter</h1>

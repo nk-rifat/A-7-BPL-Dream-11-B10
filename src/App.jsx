@@ -4,6 +4,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import { useState } from 'react';
 import Subscribe from './Components/Subscribe/Subscribe';
+import {toast} from "react-toastify"
 
 function App() {
   const [coin, setCoin] = useState(0) // increase the navbar coin section
@@ -13,7 +14,7 @@ function App() {
   const handleFreeCredit = () => {
     const newAmount = coin + 50000;
     setCoin(newAmount);
-    alert('Coin Added to your Account');
+    toast.success('Congratulation.! 50000 coin added to your Account');
   }
 
   // handle the chose player event handler function
@@ -24,17 +25,17 @@ function App() {
     );
 
     if (coin < player.price_usd) {
-      alert("You do not have enough coins");
+      toast.error("You do not have enough coins");
       return;
     }
 
     if (chosePlayer.length >= 6) {
-      alert('You can not select more than 6 players');
+      toast.warn('You can not select more than 6 players');
       return;
     }
 
     if (existingPlayer) {
-      alert(`${player.name} is already in your team!`);
+      toast.info(`${player.name} is already in your team!`);
       return;
     }
 
@@ -44,7 +45,7 @@ function App() {
     setCoin(availableCoin);
     setChosePlayer(totalPlayer);
 
-    alert(`Congratulation ${player.name} add to your team`);
+    toast.success(`Congratulation ${player.name} add to your team`);
 
   }
 

@@ -4,10 +4,11 @@ import './Cricketers.css';
 import Selected from "../SelectedPlayer/Selected";
 import PropTypes from 'prop-types';
 
-const Cricketers = ({chosePlayer, handleChosePlayer, handleRemovePlayer }) => {
+
+const Cricketers = ({ chosePlayer, handleChosePlayer, handleRemovePlayer }) => {
     const [cricketers, setCricketers] = useState([]);
     const [visibleContent, setVisibleContent] = useState('content1'); // hide and show content with button
-    
+
     // fetch the all cricketers fake data 
     useEffect(() => {
         fetch('cricketers.json')
@@ -27,7 +28,7 @@ const Cricketers = ({chosePlayer, handleChosePlayer, handleRemovePlayer }) => {
             {visibleContent === 'content1' &&
                 (<div>
                     <p className="available">Available Players</p>
-                    <div className="container-box space-x-6 mt-12 space-y-3 mb-[378px]">
+                    <div className="container-box space-x-6 mt-12 space-y-3 mb-[100px]">
                         {
                             cricketers.map(cricketer => <Cricketer key={cricketer.id} cricketer={cricketer} handleChosePlayer={handleChosePlayer}></Cricketer>)
                         }
@@ -39,14 +40,16 @@ const Cricketers = ({chosePlayer, handleChosePlayer, handleRemovePlayer }) => {
             {visibleContent === 'content2' &&
                 (
                     <div>
-                       <p className="available">Selected Players {chosePlayer.length} / 6</p> 
+                        <p className="available">Selected Players {chosePlayer.length} / 6</p>
 
-                       <div>
-                            {
-                                chosePlayer.map(player => <Selected key={player.id} player={player} handleRemovePlayer={handleRemovePlayer}></Selected>)
-                            }
-                       </div>
-                       <button onClick={() => setVisibleContent("content1")} className="btn mt-8">Add More Player</button>
+                        <div className="mb-[100px]">
+                            <div>
+                                {
+                                    chosePlayer.map(player => <Selected key={player.id} player={player} handleRemovePlayer={handleRemovePlayer}></Selected>)
+                                }
+                            </div>
+                            <button onClick={() => setVisibleContent("content1")} className="btn mt-8">Add More Player</button>
+                        </div>
                     </div>
                 )
             }
@@ -56,10 +59,10 @@ const Cricketers = ({chosePlayer, handleChosePlayer, handleRemovePlayer }) => {
 };
 
 Cricketers.propTypes = {
-  chosePlayer : PropTypes.array.isRequired, 
-  handleChosePlayer : PropTypes.func.isRequired,
-  handleRemovePlayer : PropTypes.func.isRequired
-    
+    chosePlayer: PropTypes.array.isRequired,
+    handleChosePlayer: PropTypes.func.isRequired,
+    handleRemovePlayer: PropTypes.func.isRequired
+
 }
 
 export default Cricketers;
