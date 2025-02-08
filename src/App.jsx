@@ -49,6 +49,7 @@ function App() {
 
   }
 
+  // Remove / Delete the Chosen player
   const handleRemovePlayer = (p) => {
     setChosePlayer(chosePlayer.filter(player => player.id !== p.id));
     const availableBalance = coin + p.price_usd;

@@ -20,7 +20,7 @@ const Cricketers = ({ chosePlayer, handleChosePlayer, handleRemovePlayer }) => {
         <div className="mx-36 my-12">
             <div className="flex justify-end">
                 <div className="flex space-x-3">
-                    <button onClick={() => setVisibleContent("content1")} className="btnAS">Available</button>
+                    <button onClick={() => setVisibleContent("content1")} className="btnAS">Available</button> 
                     <button onClick={() => setVisibleContent("content2")} className="btnAS">Selected {chosePlayer.length}</button>
                 </div>
             </div>

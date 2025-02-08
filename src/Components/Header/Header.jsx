@@ -18,7 +18,7 @@ const Header = ({coin, handleFreeCredit}) => {
                     <li className='coin'><span >{coin}</span> Coins</li>
                 </ul>
             </nav>
-            {/* Header Section */}
+            {/* Banner Section */}
             <section className='mx-36 my-4'>
                 <div className='bg backdrop-brightness-8'>
                 <img src={bannerMain} alt="" />
